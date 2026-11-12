@@ -19,6 +19,7 @@ Thumbs.db
 
 *.md
 !README.md
+!LOG.md
 *.canvas
 *.py
 .obsidian

@@ -21,6 +21,7 @@ npm-debug.log*
 !GUIA.md
 !EJERCICIO.md
 !CAMBIOS_MIGRACION.md
+!LOG.md
 
 # Sistema
 .DS_Store
