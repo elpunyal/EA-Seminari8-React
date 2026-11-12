@@ -11,6 +11,7 @@ export function Navbar() {
       <nav>
         <NavLink to="/authors">Autores</NavLink>
         <NavLink to="/books">Libros</NavLink>
+        <NavLink to="/favourites">Favoritos</NavLink>
       </nav>
     </header>
   );

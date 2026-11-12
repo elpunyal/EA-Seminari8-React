@@ -92,6 +92,19 @@ button.danger:hover:not(:disabled) {
   background: var(--danger-light);
 }
 
+/* Estrella de favorit: sense fons, només l'estrella */
+button.favourite {
+  padding: 0.1rem 0.4rem;
+  border-color: transparent;
+  background: transparent;
+  color: #e0a800;
+  font-size: 1.2rem;
+}
+
+button.favourite:hover:not(:disabled) {
+  background: #fff6d6;
+}
+
 /* Barra de arriba */
 .navbar {
   display: flex;

@@ -11,6 +11,7 @@ import { booksView } from '../stores/viewMode';
 import { errorMessage } from '../utils/api-error';
 import { formatPrice, languageName, truncate } from '../utils/format';
 import { ConfirmModal } from './ConfirmModal';
+import { FavouriteButton } from './FavouriteButton';
 import { Pagination } from './Pagination';
 import { ViewToggle } from './ViewToggle';
 
@@ -101,6 +102,7 @@ export function BooksList() {
               <thead>
                 <tr>
                   <th></th>
+                  <th></th>
                   <th>Título</th>
                   <th>Descripción</th>
                   <th>Autores</th>
@@ -120,6 +122,9 @@ export function BooksList() {
                         src={`https://picsum.photos/seed/${book._id}/60/80`}
                         alt={`Portada de ${book.title}`}
                       />
+                    </td>
+                    <td>
+                      <FavouriteButton bookId={book._id} />
                     </td>
                     <td>{book.title}</td>
                     <td title={book.description ?? ''}>
@@ -149,7 +154,7 @@ export function BooksList() {
                 ))}
                 {pageItems.length === 0 && (
                   <tr>
-                    <td className="empty" colSpan={9}>
+                    <td className="empty" colSpan={10}>
                       {emptyText}
                     </td>
                   </tr>
@@ -188,6 +193,7 @@ export function BooksList() {
                     </div>
                   </div>
                   <div className="card-actions">
+                    <FavouriteButton bookId={book._id} />
                     <Link className="button secondary" to={`/books/${book._id}/edit`}>
                       Editar
                     </Link>
