@@ -1,5 +1,7 @@
 # Seminari 8: API REST para el BackOffice de React
 
+video: https://drive.google.com/file/d/1U7IVQ33wZZ2feKE0mXH8inCR1PhFixOC/view?usp=drive_link
+
 API REST de ejemplo con dos recursos, **autores** y **libros**, organizada en capas
 (rutas, middleware, controllers, services y models). Es la misma API del Seminario 5, reutilizada como backend del BackOffice de React (Seminario 8). Es la base sobre la que el equipo
 trabaja los objetivos del Seminario 5 de EA:
