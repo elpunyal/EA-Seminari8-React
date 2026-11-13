@@ -1,5 +1,7 @@
 # Backoffice — Autores y libros (React)
 
+video: https://drive.google.com/file/d/1U7IVQ33wZZ2feKE0mXH8inCR1PhFixOC/view?usp=drive_link
+
 Backoffice hecho con React 19, TypeScript y Vite para el Seminario 8 de EA. Es la versión en React del
 backoffice de Angular del Seminario 6: usa **la misma API REST** y tiene las mismas pantallas (listar, buscar,
 paginar, crear, editar y borrar autores y libros, con vista en tabla o en tarjetas).
